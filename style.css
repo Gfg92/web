@@ -1,0 +1,181 @@
+#fondo {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(153, 152, 155) 0%, rgb(216, 216, 221) 35%, rgb(197, 201, 202) 100%);
+    width: auto;
+    height: auto;
+    justify-content: center;
+    
+
+
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Contenedor 0*/
+.contenedor0 {
+    width: 90%;
+    height: 7em;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(192, 192, 189) 0%, rgb(245, 245, 241) 41%, rgb(233, 244, 247) 100%);
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 20px 30px 20px 5px black;
+    margin: 10%;
+}
+
+.contenedor0 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.contenedor0 p {
+    display: inline;
+    margin: 2%;
+    padding: 0.2em;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor0 p:hover {
+    background-color: #526ad4;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+
+/*Primer Contenedor*/
+.contenedor1 {
+    width: 90%;
+    height: auto;
+    background: rgb(153, 153, 148);
+    background: linear-gradient(90deg, rgb(218, 218, 214) 0%, #FFFAFA 66%, rgb(213, 218, 219) 89%);
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 20px 30px 20px 5px black;
+    margin: 10%;
+
+}
+
+.contenedor1 .imagenPerfil {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 3em;
+    border: 2px solid #050505;
+
+}
+
+.contenedor1 .imagenPerfil:hover {
+    transform: scale(1.1) rotate(10deg);
+    transition: 1s;
+}
+
+.contenedor1 h1 {
+    color: black;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.contenedor1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 2em;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.contenedor1 .imagenLink {
+    width: 4em;
+    margin: 2em;
+}
+
+.contenedor1 .imagenLink:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.contenedor1 .imagenGit {
+    width: 4em;
+    margin: 2em;
+}
+
+.contenedor1 .imagenGit:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/*Segundo Contenedor*/
+.contenedor2 {
+    width: 90%;
+    height: auto;
+    background: rgb(153, 153, 148);
+    background: linear-gradient(90deg, rgb(218, 218, 214) 0%, #FFFAFA 66%, rgb(213, 218, 219) 89%);
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 20px 30px 20px 5px black;
+    margin: 10%;
+}
+
+.contenedor2 h1 {
+
+    font-size: 4em;
+    background-color: rgb(199, 197, 191);
+    color: rgb(10, 10, 10);
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.contenedor2 .curso {
+    font-size: xx-large;
+    margin: 1.5em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.contenedor2 .curso:hover {
+    color: #526ad4;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor2 .lugar {
+    font-size: x-large;
+}
+
+/*Tercer Contenedor*/
+.contenedor3 {
+    width: 90%;
+    height: auto;
+    background: rgb(153, 153, 148);
+    background: linear-gradient(90deg, rgb(218, 218, 214) 0%, #FFFAFA 66%, rgb(213, 218, 219) 89%);
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 20px 30px 20px 5px black;
+    margin-top: 4em;
+    margin: 10%;
+}
+
+.contenedor3 h1 {
+    font-size: 4em;
+    background-color: rgb(199, 197, 191);
+    color: rgb(10, 10, 10);
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.contenedor3 img {
+    width: 8em;
+    margin: 2.2em;
+}
+
+.contenedor3 img:hover {
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    transition: 1.5s;
+}
+
